@@ -2,14 +2,14 @@
   "member": "Zagham",
   "full_name": "Syed Zagham Naseem",
   "github": "xagham",
-  "as_of": "2026-10-28T21:20:00+05:00",
-  "headline": "Zagham has 6 pending lab/radiology tickets (4 with an open PR, none with a branch only, 2 with nothing in GitHub), and most of his lab work sits on Adil's or Maqsood's tickets or has no CC key.",
+  "as_of": "2026-10-29T22:03:00+05:00",
+  "headline": "Zagham has 6 pending lab/radiology tickets (3 with an open PR, 1 with a branch only, 2 with nothing in GitHub), and most of his lab work sits on Adil's or Maqsood's tickets or has no CC key.",
   "counts": {
     "pending": 6,
-    "with_open_pr": 4,
-    "branch_only": 0,
+    "with_open_pr": 3,
+    "branch_only": 1,
     "no_branch_pr": 2,
-    "open_prs": 10,
+    "open_prs": 9,
     "lab_branches": 34,
     "mismatches": 5
   },
@@ -65,14 +65,6 @@
       "created": "2026-10-27 20:18",
       "closed": "",
       "key": "CC-63946"
-    },
-    {
-      "number": 30593,
-      "title": "Zagham/labs/skip result data in radiology results",
-      "state": "open",
-      "created": "2026-10-28 21:18",
-      "closed": "",
-      "key": "CC-76331"
     },
     {
       "number": 30493,
@@ -137,6 +129,14 @@
       "created": "2026-06-12 22:32",
       "closed": "",
       "key": "CC-70803"
+    },
+    {
+      "number": 30635,
+      "title": "Zagham/labs/skip result data in radiology results",
+      "state": "merged",
+      "created": "2026-10-29 22:00",
+      "closed": "2026-10-29 22:01",
+      "key": "CC-76331"
     },
     {
       "number": 30503,
@@ -238,7 +238,7 @@
   "branches": [
     {
       "name": "Zagham/labs/skip-result-data-in-radiology-results",
-      "last_commit": "2026-10-28 21:18",
+      "last_commit": "2026-10-29 20:56",
       "key": "CC-76331"
     },
     {
