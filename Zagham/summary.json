@@ -2,14 +2,14 @@
   "member": "Zagham",
   "full_name": "Syed Zagham Naseem",
   "github": "xagham",
-  "as_of": "2026-10-29T23:23:00+05:00",
-  "headline": "Zagham has 6 pending lab/radiology tickets (4 with an open PR, none with a branch only, 2 with nothing in GitHub), and most of his lab work sits on Adil's or Maqsood's tickets or has no CC key.",
+  "as_of": "2026-10-30T21:43:00+05:00",
+  "headline": "Zagham has 6 pending lab/radiology tickets (3 with an open PR, 1 with a branch only, 2 with nothing in GitHub), and most of his lab work sits on Adil's or Maqsood's tickets or has no CC key.",
   "counts": {
     "pending": 6,
-    "with_open_pr": 4,
-    "branch_only": 0,
+    "with_open_pr": 3,
+    "branch_only": 1,
     "no_branch_pr": 2,
-    "open_prs": 10,
+    "open_prs": 9,
     "lab_branches": 34,
     "mismatches": 5
   },
@@ -59,14 +59,6 @@
   ],
   "prs": [
     {
-      "number": 30639,
-      "title": "Zagham/labs/skip result data in radiology results",
-      "state": "open",
-      "created": "2026-10-29 23:21",
-      "closed": "",
-      "key": "CC-76331"
-    },
-    {
       "number": 30527,
       "title": "Zagham/cc 63946 lab result share notes with patient",
       "state": "open",
@@ -75,10 +67,10 @@
       "key": "CC-63946"
     },
     {
-      "number": 30493,
+      "number": 30674,
       "title": "Zagham/labs/cc 76231 new service for associated encounters can delete ack conditions",
       "state": "open",
-      "created": "2026-10-26 21:56",
+      "created": "2026-10-30 21:41",
       "closed": "",
       "key": "CC-76231"
     },
@@ -137,6 +129,14 @@
       "created": "2026-06-12 22:32",
       "closed": "",
       "key": "CC-70803"
+    },
+    {
+      "number": 30639,
+      "title": "Zagham/labs/skip result data in radiology results",
+      "state": "merged",
+      "created": "2026-10-29 23:21",
+      "closed": "2026-10-29 23:28",
+      "key": "CC-76331"
     },
     {
       "number": 30635,
@@ -251,7 +251,7 @@
     },
     {
       "name": "Zagham/labs/CC-76231-New-Service-for-associated-encounters-can_delete_ack-conditions",
-      "last_commit": "2026-10-26 21:46",
+      "last_commit": "2026-10-30 21:40",
       "key": "CC-76231"
     },
     {
