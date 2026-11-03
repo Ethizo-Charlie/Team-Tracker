@@ -2,7 +2,7 @@
   "member": "Zagham",
   "full_name": "Syed Zagham Naseem",
   "github": "xagham",
-  "as_of": "2026-10-30T21:43:00+05:00",
+  "as_of": "2026-11-03T08:58:00+05:00",
   "headline": "Zagham has 6 pending lab/radiology tickets (3 with an open PR, 1 with a branch only, 2 with nothing in GitHub), and most of his lab work sits on Adil's or Maqsood's tickets or has no CC key.",
   "counts": {
     "pending": 6,
@@ -251,7 +251,7 @@
     },
     {
       "name": "Zagham/labs/CC-76231-New-Service-for-associated-encounters-can_delete_ack-conditions",
-      "last_commit": "2026-10-30 21:40",
+      "last_commit": "2026-11-02 18:56",
       "key": "CC-76231"
     },
     {

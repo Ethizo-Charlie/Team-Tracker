@@ -2,18 +2,32 @@
  "member": "Adil",
  "full_name": "Adil Asghar",
  "github": "madilasghar",
- "as_of": "2026-10-27T21:23:00+05:00",
- "headline": "Adil has 69 pending lab/radiology tickets (16 with an open PR, 23 branch-only, 30 with nothing in GitHub) and no new work since Oct 22; main risk is CC-74566, where order-level AOE answers are not sent in the HL7 order and no PR exists.",
+ "as_of": "2026-11-03T22:04:00+05:00",
+ "headline": "Adil has 69 pending lab/radiology tickets (16 with an open PR, 23 branch-only, 30 with nothing in GitHub) and no new lab work since Oct 27 (he was on leave Oct 21–28, back Oct 29); CC-63712 is now Critical and still in Integration Testing with PR #23237 open since Dec 2025, and his only new item is non-lab CC-76547 (IVR change, PR #30732).",
  "counts": {
   "pending": 69,
   "with_open_pr": 16,
   "branch_only": 23,
   "no_branch_pr": 30,
-  "open_prs": 33,
-  "lab_branches": 109,
+  "open_prs": 34,
+  "lab_branches": 111,
   "mismatches": 38
  },
  "tickets": [
+  {
+   "key": "CC-65141",
+   "title": "Re: [ethizo] Re: Missing option in Bill To under Lab Order",
+   "status": "Integration Testing",
+   "priority": "Medium",
+   "updated": "2026-10-28 15:06"
+  },
+  {
+   "key": "CC-63712",
+   "title": "Lab Requisition customization",
+   "status": "Integration Testing",
+   "priority": "Critical",
+   "updated": "2026-10-28 02:20"
+  },
   {
    "key": "CC-75566",
    "title": "Labcorp ABN & Accudraw updations",
@@ -104,20 +118,6 @@
    "status": "In development",
    "priority": "Medium",
    "updated": "2026-09-23 22:06"
-  },
-  {
-   "key": "CC-65141",
-   "title": "Re: [ethizo] Re: Missing option in Bill To under Lab Order",
-   "status": "Integration Testing",
-   "priority": "Medium",
-   "updated": "2026-09-20 23:23"
-  },
-  {
-   "key": "CC-63712",
-   "title": "Lab Requisition customization",
-   "status": "Integration Testing",
-   "priority": "High",
-   "updated": "2026-09-20 23:19"
   },
   {
    "key": "CC-73564",
@@ -505,7 +505,9 @@
    "state": "open",
    "created": "2026-09-17 22:09",
    "closed": "",
-   "key": "CC-74258"
+   "key": "CC-74258",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/29471"
   },
   {
    "number": 28915,
@@ -513,7 +515,9 @@
    "state": "open",
    "created": "2026-08-27 22:30",
    "closed": "",
-   "key": ""
+   "key": "",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/28915"
   },
   {
    "number": 28820,
@@ -521,7 +525,9 @@
    "state": "open",
    "created": "2026-08-25 20:50",
    "closed": "",
-   "key": "CC-72558"
+   "key": "CC-72558",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/28820"
   },
   {
    "number": 28334,
@@ -529,7 +535,9 @@
    "state": "open",
    "created": "2026-08-07 22:35",
    "closed": "",
-   "key": "CC-63703"
+   "key": "CC-63703",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/28334"
   },
   {
    "number": 27824,
@@ -537,7 +545,9 @@
    "state": "open",
    "created": "2026-07-14 00:38",
    "closed": "",
-   "key": "CC-66236"
+   "key": "CC-66236",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/27824"
   },
   {
    "number": 27823,
@@ -545,7 +555,9 @@
    "state": "open",
    "created": "2026-07-14 00:35",
    "closed": "",
-   "key": "CC-72437"
+   "key": "CC-72437",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/27823"
   },
   {
    "number": 27540,
@@ -553,7 +565,9 @@
    "state": "open",
    "created": "2026-06-30 22:13",
    "closed": "",
-   "key": "CC-71792"
+   "key": "CC-71792",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/27540"
   },
   {
    "number": 27512,
@@ -561,7 +575,9 @@
    "state": "open",
    "created": "2026-06-30 00:41",
    "closed": "",
-   "key": "CC-71953"
+   "key": "CC-71953",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/27512"
   },
   {
    "number": 26399,
@@ -569,7 +585,9 @@
    "state": "open",
    "created": "2026-05-13 21:18",
    "closed": "",
-   "key": "CC-61418"
+   "key": "CC-61418",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/26399"
   },
   {
    "number": 25938,
@@ -577,7 +595,9 @@
    "state": "open",
    "created": "2026-04-27 22:35",
    "closed": "",
-   "key": "CC-66462"
+   "key": "CC-66462",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/25938"
   },
   {
    "number": 25788,
@@ -585,7 +605,9 @@
    "state": "open",
    "created": "2026-04-22 00:10",
    "closed": "",
-   "key": "CC-65141"
+   "key": "CC-65141",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/25788"
   },
   {
    "number": 24012,
@@ -593,7 +615,9 @@
    "state": "open",
    "created": "2026-01-30 00:25",
    "closed": "",
-   "key": "CC-65576"
+   "key": "CC-65576",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/24012"
   },
   {
    "number": 24002,
@@ -601,7 +625,9 @@
    "state": "open",
    "created": "2026-01-29 21:06",
    "closed": "",
-   "key": "CC-42432"
+   "key": "CC-42432",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/24002"
   },
   {
    "number": 23518,
@@ -609,7 +635,9 @@
    "state": "open",
    "created": "2025-12-31 23:49",
    "closed": "",
-   "key": "CC-65363"
+   "key": "CC-65363",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/23518"
   },
   {
    "number": 23517,
@@ -617,7 +645,9 @@
    "state": "open",
    "created": "2025-12-31 23:47",
    "closed": "",
-   "key": "CC-64034"
+   "key": "CC-64034",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/23517"
   },
   {
    "number": 23237,
@@ -625,7 +655,9 @@
    "state": "open",
    "created": "2025-12-16 22:00",
    "closed": "",
-   "key": "CC-63712"
+   "key": "CC-63712",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/23237"
   },
   {
    "number": 22724,
@@ -633,7 +665,9 @@
    "state": "open",
    "created": "2025-11-19 16:57",
    "closed": "",
-   "key": "CC-64537"
+   "key": "CC-64537",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/22724"
   },
   {
    "number": 21728,
@@ -641,7 +675,9 @@
    "state": "open",
    "created": "2025-10-09 20:36",
    "closed": "",
-   "key": "CC-63564"
+   "key": "CC-63564",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/21728"
   },
   {
    "number": 21370,
@@ -649,7 +685,9 @@
    "state": "open",
    "created": "2025-09-24 22:45",
    "closed": "",
-   "key": "CC-63177"
+   "key": "CC-63177",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/21370"
   },
   {
    "number": 20476,
@@ -657,7 +695,9 @@
    "state": "open",
    "created": "2025-08-20 21:38",
    "closed": "",
-   "key": "CC-61170"
+   "key": "CC-61170",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/20476"
   },
   {
    "number": 20417,
@@ -665,7 +705,9 @@
    "state": "open",
    "created": "2025-08-18 21:51",
    "closed": "",
-   "key": "CC-62372"
+   "key": "CC-62372",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/20417"
   },
   {
    "number": 19448,
@@ -673,7 +715,9 @@
    "state": "open",
    "created": "2025-07-07 14:41",
    "closed": "",
-   "key": ""
+   "key": "",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/19448"
   },
   {
    "number": 19277,
@@ -681,7 +725,9 @@
    "state": "open",
    "created": "2025-06-25 22:25",
    "closed": "",
-   "key": "CC-61232"
+   "key": "CC-61232",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/19277"
   },
   {
    "number": 19207,
@@ -689,7 +735,9 @@
    "state": "open",
    "created": "2025-06-20 21:54",
    "closed": "",
-   "key": "CC-61160"
+   "key": "CC-61160",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/19207"
   },
   {
    "number": 18539,
@@ -697,7 +745,9 @@
    "state": "open",
    "created": "2025-05-19 21:02",
    "closed": "",
-   "key": "CC-59490"
+   "key": "CC-59490",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/18539"
   },
   {
    "number": 18395,
@@ -705,7 +755,9 @@
    "state": "open",
    "created": "2025-05-12 17:15",
    "closed": "",
-   "key": "CC-60080"
+   "key": "CC-60080",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/18395"
   },
   {
    "number": 18176,
@@ -713,7 +765,9 @@
    "state": "open",
    "created": "2025-04-30 22:16",
    "closed": "",
-   "key": "CC-59815"
+   "key": "CC-59815",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/18176"
   },
   {
    "number": 17266,
@@ -721,7 +775,9 @@
    "state": "open",
    "created": "2025-03-10 20:22",
    "closed": "",
-   "key": ""
+   "key": "",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/17266"
   },
   {
    "number": 16923,
@@ -729,7 +785,9 @@
    "state": "open",
    "created": "2025-02-18 20:16",
    "closed": "",
-   "key": "CC-57527"
+   "key": "CC-57527",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/16923"
   },
   {
    "number": 16765,
@@ -737,7 +795,9 @@
    "state": "open",
    "created": "2025-02-07 20:49",
    "closed": "",
-   "key": "CC-57136"
+   "key": "CC-57136",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/16765"
   },
   {
    "number": 16623,
@@ -745,7 +805,9 @@
    "state": "open",
    "created": "2025-01-31 19:58",
    "closed": "",
-   "key": "CC-48004"
+   "key": "CC-48004",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/16623"
   },
   {
    "number": 15816,
@@ -753,7 +815,9 @@
    "state": "open",
    "created": "2024-11-22 18:51",
    "closed": "",
-   "key": "CC-54902"
+   "key": "CC-54902",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/15816"
   },
   {
    "number": 12091,
@@ -761,7 +825,30 @@
    "state": "open",
    "created": "2024-02-29 23:29",
    "closed": "",
-   "key": "CC-43868"
+   "key": "CC-43868",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/12091"
+  },
+  {
+   "number": 1952,
+   "title": "provider statements ",
+   "state": "open",
+   "created": "2024-05-31 20:27",
+   "closed": "",
+   "key": "CC-50679",
+   "repo": "ethizo-api",
+   "url": "https://github.com/Teleglobal/ethizo-api/pull/1952"
+  },
+  {
+   "number": 30732,
+   "title": "replace Nicole with Jamika",
+   "state": "open",
+   "created": "2026-11-03 21:55",
+   "closed": "",
+   "key": "CC-76547",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30732",
+   "lab": false
   },
   {
    "number": 16033,
@@ -769,7 +856,9 @@
    "state": "closed",
    "created": "2024-12-17 21:38",
    "closed": "2026-10-26 01:03",
-   "key": "CC-55537"
+   "key": "CC-55537",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/16033"
   },
   {
    "number": 15032,
@@ -777,7 +866,9 @@
    "state": "closed",
    "created": "2024-10-15 18:38",
    "closed": "2026-10-26 01:03",
-   "key": "CC-52536"
+   "key": "CC-52536",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/15032"
   },
   {
    "number": 13263,
@@ -785,7 +876,9 @@
    "state": "closed",
    "created": "2024-07-08 21:02",
    "closed": "2026-10-26 01:03",
-   "key": "CC-51584"
+   "key": "CC-51584",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/13263"
   },
   {
    "number": 13213,
@@ -793,7 +886,9 @@
    "state": "closed",
    "created": "2024-07-02 17:39",
    "closed": "2026-10-26 01:03",
-   "key": ""
+   "key": "",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/13213"
   },
   {
    "number": 13000,
@@ -801,7 +896,9 @@
    "state": "closed",
    "created": "2024-06-06 22:06",
    "closed": "2026-10-26 01:03",
-   "key": "CC-50926"
+   "key": "CC-50926",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/13000"
   },
   {
    "number": 12928,
@@ -809,7 +906,9 @@
    "state": "closed",
    "created": "2024-05-31 20:12",
    "closed": "2026-10-26 01:03",
-   "key": "CC-50679"
+   "key": "CC-50679",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/12928"
   },
   {
    "number": 12887,
@@ -817,7 +916,9 @@
    "state": "closed",
    "created": "2024-05-24 20:02",
    "closed": "2026-10-26 01:03",
-   "key": "CC-50694"
+   "key": "CC-50694",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/12887"
   },
   {
    "number": 12845,
@@ -825,7 +926,9 @@
    "state": "closed",
    "created": "2024-05-22 22:21",
    "closed": "2026-10-26 01:03",
-   "key": "CC-50662"
+   "key": "CC-50662",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/12845"
   },
   {
    "number": 12827,
@@ -833,7 +936,9 @@
    "state": "closed",
    "created": "2024-05-21 22:00",
    "closed": "2026-10-26 01:03",
-   "key": "CC-47747"
+   "key": "CC-47747",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/12827"
   },
   {
    "number": 12133,
@@ -841,7 +946,9 @@
    "state": "closed",
    "created": "2024-03-06 13:38",
    "closed": "2026-10-26 01:03",
-   "key": "CC-48954"
+   "key": "CC-48954",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/12133"
   },
   {
    "number": 10024,
@@ -849,7 +956,9 @@
    "state": "closed",
    "created": "2023-07-20 16:00",
    "closed": "2026-10-26 01:03",
-   "key": "CC-45283"
+   "key": "CC-45283",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/10024"
   },
   {
    "number": 9764,
@@ -857,7 +966,9 @@
    "state": "closed",
    "created": "2023-06-15 21:54",
    "closed": "2026-10-26 01:03",
-   "key": "CC-45111"
+   "key": "CC-45111",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/9764"
   },
   {
    "number": 9058,
@@ -865,7 +976,9 @@
    "state": "closed",
    "created": "2023-03-24 19:16",
    "closed": "2026-10-26 01:03",
-   "key": "CC-43697"
+   "key": "CC-43697",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/9058"
   },
   {
    "number": 8316,
@@ -873,7 +986,9 @@
    "state": "closed",
    "created": "2022-12-09 17:27",
    "closed": "2026-10-26 01:03",
-   "key": "CC-41297"
+   "key": "CC-41297",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/8316"
   },
   {
    "number": 7724,
@@ -881,7 +996,9 @@
    "state": "closed",
    "created": "2022-09-09 20:05",
    "closed": "2026-10-26 01:03",
-   "key": "CC-40111"
+   "key": "CC-40111",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/7724"
   },
   {
    "number": 7659,
@@ -889,7 +1006,9 @@
    "state": "closed",
    "created": "2022-09-02 17:37",
    "closed": "2026-10-26 01:03",
-   "key": "CC-39609"
+   "key": "CC-39609",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/7659"
   },
   {
    "number": 7658,
@@ -897,7 +1016,9 @@
    "state": "closed",
    "created": "2022-09-02 17:35",
    "closed": "2026-10-26 01:03",
-   "key": "CC-39609"
+   "key": "CC-39609",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/7658"
   },
   {
    "number": 8142,
@@ -905,7 +1026,9 @@
    "state": "closed",
    "created": "2022-11-16 17:48",
    "closed": "2026-10-26 00:56",
-   "key": ""
+   "key": "",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/8142"
   },
   {
    "number": 30322,
@@ -913,7 +1036,9 @@
    "state": "merged",
    "created": "2026-10-19 23:14",
    "closed": "2026-10-19 23:15",
-   "key": "CC-75566"
+   "key": "CC-75566",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30322"
   },
   {
    "number": 30320,
@@ -921,7 +1046,9 @@
    "state": "merged",
    "created": "2026-10-19 22:41",
    "closed": "2026-10-19 22:43",
-   "key": ""
+   "key": "",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30320"
   },
   {
    "number": 30281,
@@ -929,7 +1056,9 @@
    "state": "merged",
    "created": "2026-10-16 20:45",
    "closed": "2026-10-16 21:06",
-   "key": "CC-75566"
+   "key": "CC-75566",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30281"
   },
   {
    "number": 30040,
@@ -937,7 +1066,9 @@
    "state": "merged",
    "created": "2026-10-07 00:26",
    "closed": "2026-10-09 23:10",
-   "key": "CC-74976"
+   "key": "CC-74976",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30040"
   },
   {
    "number": 30003,
@@ -945,31 +1076,9 @@
    "state": "merged",
    "created": "2026-10-05 23:52",
    "closed": "2026-10-05 23:58",
-   "key": "CC-74976"
-  },
-  {
-   "number": 28925,
-   "title": "doc edite",
-   "state": "merged",
-   "created": "2026-08-28 00:30",
-   "closed": "2026-10-02 01:25",
-   "key": ""
-  },
-  {
-   "number": 29200,
-   "title": "Madilasghar/labs/cc 74426 can delete",
-   "state": "merged",
-   "created": "2026-09-08 23:36",
-   "closed": "2026-09-30 19:59",
-   "key": "CC-74426"
-  },
-  {
-   "number": 29842,
-   "title": "Madilasghar/e10x/labs/cc 73495 radiology modifiers",
-   "state": "closed",
-   "created": "2026-09-30 19:42",
-   "closed": "2026-09-30 19:44",
-   "key": "CC-73495"
+   "key": "CC-74976",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30003"
   }
  ],
  "branches": [
@@ -981,7 +1090,7 @@
   {
    "name": "madilasghar/labs/quickfix-assign_to",
    "last_commit": "2026-10-19 22:40",
-   "key": ""
+   "key": "—"
   },
   {
    "name": "madilasghar/labs/CC-74976-internal-cancel",
@@ -991,7 +1100,7 @@
   {
    "name": "madilasghar/labs/lab-result-pdf-reports",
    "last_commit": "2026-10-07 21:07",
-   "key": ""
+   "key": "—"
   },
   {
    "name": "madilasghar/labs/CC-74566-order-aoes",
@@ -1111,7 +1220,7 @@
   {
    "name": "madilasghar/labs/merge-57725-63177",
    "last_commit": "2026-08-11 23:27",
-   "key": ""
+   "key": "—"
   },
   {
    "name": "madilasghar/labs/CC-63703-save-result-task-notification-new",
@@ -1201,7 +1310,7 @@
   {
    "name": "madilasghar/labs/exclude-insurance-bill-to",
    "last_commit": "2026-06-22 22:25",
-   "key": ""
+   "key": "—"
   },
   {
    "name": "madilasghar/labs/CC-64537-remove-note",
@@ -1324,6 +1433,11 @@
    "key": "CC-67274"
   },
   {
+   "name": "adilasghar/labs/CC-67274-refector-patient_report",
+   "last_commit": "2026-02-25 23:23",
+   "key": "CC-67274"
+  },
+  {
    "name": "madilasghar/labs/CC-63177-exac-result-print",
    "last_commit": "2026-02-09 19:02",
    "key": "CC-63177"
@@ -1421,7 +1535,7 @@
   {
    "name": "madilasghar/labs/unit-tests",
    "last_commit": "2025-07-30 21:49",
-   "key": ""
+   "key": "—"
   },
   {
    "name": "madilasghar/labs/CC-61232-lab-rad-element",
@@ -1486,7 +1600,7 @@
   {
    "name": "madilasghar/labs/result-fix",
    "last_commit": "2025-03-10 20:18",
-   "key": ""
+   "key": "—"
   },
   {
    "name": "madilasghar/e10x/labs/CC-48004-icds-ap",
@@ -1517,6 +1631,12 @@
    "name": "madilasghar/labs/CC-56289-beforefind",
    "last_commit": "2025-01-15 17:55",
    "key": "CC-56289"
+  },
+  {
+   "name": "madilasghar/labs/CC-40110",
+   "last_commit": "2022-09-14 17:21",
+   "key": "CC-40110",
+   "repo": "ethizo-api"
   }
  ]
 }
