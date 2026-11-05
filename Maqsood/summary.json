@@ -2,18 +2,25 @@
  "member": "Maqsood",
  "full_name": "Maqsood Alam",
  "github": "maqsood87 (commits) / Maqsood137 (PRs)",
- "as_of": "2026-10-27T21:15:00+05:00",
- "headline": "32 pending lab/radiology tickets: work found in Teleglobal/MDSycnedWeb (commits as maqsood87). 2 in an open PR, 17 with a branch and no open PR (6 already merged), 13 with no code; 11 status mismatches.",
+ "as_of": "2026-11-04T09:01:00+05:00",
+ "headline": "33 pending lab/radiology tickets (new: CC-76615, no code yet); no GitHub activity since Oct 9. 2 in an open PR, 17 with a branch and no open PR (6 already merged), 14 with no code; 11 status mismatches.",
  "counts": {
-  "pending": 32,
+  "pending": 33,
   "with_open_pr": 2,
   "branch_only": 17,
-  "no_branch_pr": 13,
+  "no_branch_pr": 14,
   "open_prs": 8,
   "lab_branches": 39,
   "mismatches": 11
  },
  "tickets": [
+  {
+   "key": "CC-76615",
+   "title": "Lab-Quest lab services issue",
+   "status": "In development",
+   "priority": "Low",
+   "updated": "2026-11-04 01:06"
+  },
   {
    "key": "CC-69872",
    "title": "Adding lab results-uploading faxed report",

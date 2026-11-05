@@ -2,18 +2,39 @@
  "member": "Adil",
  "full_name": "Adil Asghar",
  "github": "madilasghar",
- "as_of": "2026-11-03T22:04:00+05:00",
- "headline": "Adil has 69 pending lab/radiology tickets (16 with an open PR, 23 branch-only, 30 with nothing in GitHub) and no new lab work since Oct 27 (he was on leave Oct 21–28, back Oct 29); CC-63712 is now Critical and still in Integration Testing with PR #23237 open since Dec 2025, and his only new item is non-lab CC-76547 (IVR change, PR #30732).",
+ "as_of": "2026-11-05T10:59:00+05:00",
+ "headline": "Adil has 72 pending lab/radiology tickets (17 with an open PR, 23 branch-only, 32 with nothing in GitHub). New since Nov 4: lab PR #30768 for CC-76605 (ticket still To Do, flagged), non-lab IVR ticket CC-76658 with PR #30767, and CC-76628 reassigned to Syed Zagham Naseem. CC-63712 is still Critical in Integration Testing with PR #23237 open since Dec 2025.",
  "counts": {
-  "pending": 69,
-  "with_open_pr": 16,
+  "pending": 72,
+  "with_open_pr": 17,
   "branch_only": 23,
-  "no_branch_pr": 30,
-  "open_prs": 34,
-  "lab_branches": 111,
-  "mismatches": 38
+  "no_branch_pr": 32,
+  "open_prs": 35,
+  "lab_branches": 112,
+  "mismatches": 39
  },
  "tickets": [
+  {
+   "key": "CC-76607",
+   "title": "Appolohealth lab bill to option",
+   "status": "To Do",
+   "priority": "Low",
+   "updated": "2026-11-03 22:42"
+  },
+  {
+   "key": "CC-76606",
+   "title": "Provider's personal note in lab",
+   "status": "To Do",
+   "priority": "Low",
+   "updated": "2026-11-03 22:38"
+  },
+  {
+   "key": "CC-76605",
+   "title": "Quest lab document link on lab",
+   "status": "To Do",
+   "priority": "Low",
+   "updated": "2026-11-03 22:35"
+  },
   {
    "key": "CC-65141",
    "title": "Re: [ethizo] Re: Missing option in Bill To under Lab Order",
@@ -840,15 +861,25 @@
    "url": "https://github.com/Teleglobal/ethizo-api/pull/1952"
   },
   {
-   "number": 30732,
-   "title": "replace Nicole with Jamika",
+   "number": 30767,
+   "title": "default timer set to 90s",
    "state": "open",
-   "created": "2026-11-03 21:55",
+   "created": "2026-11-05 01:41",
    "closed": "",
-   "key": "CC-76547",
+   "key": "CC-76658",
    "repo": "core-ecoshealth",
-   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30732",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30767",
    "lab": false
+  },
+  {
+   "number": 30768,
+   "title": "CC-76605 Allow attestation on lab_files type",
+   "state": "open",
+   "created": "2026-11-05 01:46",
+   "closed": "",
+   "key": "CC-76605",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30768"
   },
   {
    "number": 16033,
@@ -1079,9 +1110,25 @@
    "key": "CC-74976",
    "repo": "core-ecoshealth",
    "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30003"
+  },
+  {
+   "number": 30732,
+   "title": "replace Nicole with Jamika",
+   "state": "merged",
+   "created": "2026-11-03 21:55",
+   "closed": "2026-11-03 22:04",
+   "key": "CC-76547",
+   "repo": "core-ecoshealth",
+   "url": "https://github.com/Teleglobal/core-ecoshealth/pull/30732",
+   "lab": false
   }
  ],
  "branches": [
+  {
+   "name": "madilasghar/labs/CC-76605-lab-files-attestation-type",
+   "last_commit": "2026-11-05 01:46",
+   "key": "CC-76605"
+  },
   {
    "name": "madilasghar/labs/CC-75566-abn-accudraw",
    "last_commit": "2026-10-19 23:15",
